@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+a {
+  text-decoration: none;
+  color: aliceblue;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  color: aliceblue;
+  background-color: black;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 900;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Navbar{
+  background-color: black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Navbar-link{
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 10vh;
+  margin: 0 30px;
+  padding: 5px 20px;
+  color: aliceblue;
 }
-
-.App-link {
-  color: #61dafb;
+.Navbar-link li{
+  list-style: none;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.forms{
+  padding:20vh 40vw;
+  display: grid;
+  grid-template-columns: 100%;
+}
+.forms input{
+  height: 30px;
+  margin: 5px;
+  padding: 10px;
+}
+.menu{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: cornsilk;
+}
+.imageholder img{
+  width: 100%;
+  height: 100vh;
+}
+.comenttext{
+  position: fixed;
+  bottom: 60px;
+  left:51vw;
+}
+.comenttext input{
+  width: 45vw;
+  height: 32px;
+  border-style: dashed;
+  margin: 10px 0;
 }
